@@ -1,0 +1,22 @@
+# ==========================================
+#             RedNet Configuration
+#               Author: AdnanPSD
+# ==========================================
+
+# Eklenti dili (Örn: tr_TR, en_US)
+language: tr_TR
+
+# Veritabanı Ayarları
+storage:
+  # Seçenekler: SQLITE veya MYSQL
+  type: "SQLITE"
+  
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "rednet"
+    username: "root"
+    password: ""
+    # HikariCP Havuz Ayarları
+    maximum-pool-size: 10
+    minimum-idle: 2

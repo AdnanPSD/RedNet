@@ -1,0 +1,18 @@
+name: RedNet
+version: 1.0.0
+main: com.adnanpsd.rednet.RedNet
+api-version: '1.21'
+author: AdnanPSD
+description: Gelişmiş, yüksek performanslı kablosuz redstone ve kuantum devre sistemi.
+commands:
+  rednet:
+    description: RedNet ana komutu.
+    usage: /<command> [help|create|edit|info|cancel]
+    aliases: [rn]
+permissions:
+  rednet.create.*:
+    description: Tüm devreleri oluşturma yetkisi.
+    default: op
+  rednet.admin:
+    description: Yönetici komutlarına erişim.
+    default: op

@@ -1,0 +1,61 @@
+# ==========================================
+#         RedNet - Türkçe Dil Dosyası
+#               Yazar: AdnanPSD
+# ==========================================
+
+prefix: "&8[&4RedNet&8] &7"
+
+system:
+  reloaded: "&aEklenti başarıyla yenilendi!"
+  db-error: "&cVeritabanına bağlanırken bir hata oluştu. Lütfen konsolu kontrol edin."
+
+commands:
+  no-permission: "&cBu komutu kullanmak için yetkiniz yok!"
+  player-only: "&cBu komut sadece oyuncular tarafından kullanılabilir."
+  invalid-syntax: "&cHatalı kullanım! &eYardım için: /rednet help"
+  help-header: "&8====== &4RedNet &8======"
+  help-create: "&e/rednet <tür> [gecikme] &7- Yeni bir devre oluşturmaya başlar."
+  help-cancel: "&e/rednet cancel &7- Aktif kurulum işlemini iptal eder."
+  help-info: "&e/rednet info &7- Baktığınız devrenin bilgilerini gösterir."
+  help-types: "&eTürler: &7quantum, on, off, toggle, random, reverse, impulse"
+  
+circuit:
+  created: "&a%type% devresi başarıyla oluşturuldu!"
+  removed: "&cDevre başarıyla kaldırıldı."
+  broken: "&cKırdığınız bloğa bağlı devre(ler) sistemden silindi."
+  updated: "&aDevre başarıyla güncellendi!"
+
+setup:
+  started: "&aKurulum başladı! Devre türü: &e%type%&a. Lütfen önce tetikleyici (Verici) bir bloğa tıklayın."
+  sender-set: "&aVerici (Sender) blok seçildi! Şimdi bağlanacak alıcı (Receiver) bloğa tıklayın."
+  cancelled: "&cDevre kurma işlemi iptal edildi."
+  no-session: "&cİptal edilecek aktif bir kurulum işleminiz bulunmuyor."
+  invalid-type: "&cGeçersiz devre türü! Türler: quantum, on, off, toggle, random, reverse, impulse"
+
+info:
+  no-block: "&cLütfen bir bloğa bakarak bu komutu kullanın. (Maksimum 5 blok mesafe)"
+  no-circuit: "&cBaktığınız blokta kayıtlı herhangi bir devre bulunamadı."
+  found: "&aBaktığınız blokla ilişkili &e%count% &aadet devre bulundu. Bağlantılar 5 saniye boyunca gösterilecek!"
+
+menu:
+  edit-title: "&8⚙ Devre Düzenleyici"
+  type-item: "&eDevre Türü: &a%type%"
+  type-lore:
+    - "&7Tıklayarak devre türünü değiştirin."
+  delay-item: "&eGecikme (Delay): &a%delay% sn"
+  delay-lore:
+    - "&7Sol Tık: &a+0.5 sn"
+    - "&7Sağ Tık: &c-0.5 sn"
+  trigger-item: "&aManuel Tetikleme"
+  trigger-lore:
+    - "&7Sanki şaltere basılmış gibi"
+    - "&7devreyi uzaktan anlık çalıştırır."
+  visualize-item: "&bBağlantıyı Göster"
+  visualize-lore:
+    - "&7Lazer efektleriyle devrenin"
+    - "&7nereye bağlı olduğunu gösterir."
+  teleport-sender: "&6Vericiye (Sender) Işınlan"
+  teleport-receiver: "&6Alıcıya (Receiver) Işınlan"
+  delete-item: "&cDevreyi Kalıcı Olarak Sil"
+  delete-lore:
+    - "&7Bu işlemi geri alamazsınız!"
